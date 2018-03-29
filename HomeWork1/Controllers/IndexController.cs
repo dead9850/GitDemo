@@ -11,7 +11,7 @@ namespace HomeWork1.Controllers
         // GET: Index
         public ActionResult Index()
         {
-
+            ViewBag.Label = "change test";
             return View();
         }
     }
